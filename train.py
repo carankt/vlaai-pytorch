@@ -44,7 +44,7 @@ def main():
     num_workers = 32
     learning_rate = 0.01
     num_epochs = 1000
-    valid_epochs = 20
+    valid_epochs = 10
     display_loss = 2
     steps = 0
     save_dir = f"./checkpoints/{ID}/"
@@ -87,6 +87,7 @@ def main():
     train_loss = []
 
     for epoch in tqdm(range(1, num_epochs)):
+        EarlyStopping.early_stop = False
         if EarlyStopping.early_stop == True:
             print("Early stopping")
             break
@@ -160,7 +161,7 @@ def main():
     model.eval()
     test_loss = []
     test_metric = []
-    test_model = utils.load_model(model, f"model_{ID}_{epoch}.pt", device)
+    test_model = utils.load_model(model, f"{save_dir}/model_{ID}_{epoch}.pt", device)
 
     test_metric_dict = {}
 
@@ -199,4 +200,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    

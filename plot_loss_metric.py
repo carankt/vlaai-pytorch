@@ -41,43 +41,51 @@ def extract_data_from_file(filepath):
     return epochs, train_losses, valid_epochs_loss, valid_losses, valid_epochs, valid_metrics
 
 # Extract data from the files
-epochs1, train_losses1, valid_epochs_loss1, valid_losses1, valid_epochs1, valid_metrics1 = extract_data_from_file("/Users/karanthakkar/Downloads/training_log_2023-11-05_10:03:55.txt")
-epochs2, train_losses2, valid_epochs_loss2, valid_losses2, valid_epochs2, valid_metrics2 = extract_data_from_file("/Users/karanthakkar/Downloads/training_log_2023-11-04_21:34:50.txt")
+epochs1, train_losses1, valid_epochs_loss1, valid_losses1, valid_epochs1, valid_metrics1 = extract_data_from_file("./logs/training_log_2023-11-05_10:03:55.txt")
+#epochs2, train_losses2, valid_epochs_loss2, valid_losses2, valid_epochs2, valid_metrics2 = extract_data_from_file("/Users/karanthakkar/Downloads/training_log_2023-11-04_21:34:50.txt")
+#epochs3, train_losses3, valid_epochs_loss3, valid_losses3, valid_epochs3, valid_metrics3 = extract_data_from_file("/Users/karanthakkar/Downloads/training_log_2023-11-06_09:37:15.txt")
+#epochs4, train_losses4, valid_epochs_loss4, valid_losses4, valid_epochs4, valid_metrics4 = extract_data_from_file("/Users/karanthakkar/Downloads/training_log_2023-11-05_23:11:26.txt")
 
 # Plot Train Loss with log scale
 plt.figure(figsize=(12, 6))
 plt.plot(epochs1, train_losses1, '-o', label="Train Loss", markersize=3)
-plt.plot(epochs2, train_losses2, '-o', linestyle='--', label="Train Loss (random sampling across trials)", markersize=3)
+#plt.plot(epochs2, train_losses2, '-o', linestyle='--', label="Train Loss (random sampling across trials)", markersize=3)
+#plt.plot(epochs3, train_losses3, '-o', linestyle='--', label="Train Loss (longer patience)", markersize=3)
+#plt.plot(epochs4, train_losses4, '-o', linestyle='--', label="Train Loss (longer patience, different seed)", markersize=3)
 plt.xlabel("Epoch")
-plt.ylabel("Negative Train Loss (Log Scale)")
+plt.ylabel("Train Loss (Log Scale)")
 #plt.yscale("log")
-plt.title("Negative Train Loss over Epochs")
+plt.title("Train Loss over Epochs")
 plt.legend()
 plt.grid(True, which="both", ls="--", linewidth=0.5)
-plt.savefig("train_loss_overlayed_2.png")
+plt.savefig("./logs/train_loss_overlayed_2.png")
 
 # Continue with other plots...
 
 # Plot Valid Loss
 plt.figure(figsize=(12, 6))
-plt.plot(valid_epochs_loss1, valid_losses1, '-o', color="red", label="Valid Loss", markersize=3)
-plt.plot(valid_epochs_loss2, valid_losses2, '-o', linestyle='--', color="purple", label="Valid Loss (random sampling across trials)", markersize=3)
+plt.plot(valid_epochs_loss1, valid_losses1, '-o', label="Valid Loss", markersize=3)
+#plt.plot(valid_epochs_loss2, valid_losses2, '-o', linestyle='--', label="Valid Loss (random sampling across trials)", markersize=3)
+#plt.plot(valid_epochs_loss3, valid_losses3, '-o', linestyle='--', label="Valid Loss (longer patience)", markersize=3)
+#plt.plot(valid_epochs_loss4, valid_losses4, '-o', linestyle='--', label="Valid Loss (longer patience, different seed)", markersize=3)
 plt.xlabel("Epoch")
-plt.ylabel("Negative Valid Loss")
-plt.title("Negative Valid Loss over Epochs")
+plt.ylabel("Valid Loss")
+plt.title("Valid Loss over Epochs")
 plt.legend()
 plt.grid(True)
-plt.savefig("valid_loss_overlayed_2.png")
+plt.savefig("./logs/valid_loss_overlayed_2.png")
 
 # Plot Validation Metric
 plt.figure(figsize=(12, 6))
-plt.plot(valid_epochs1, valid_metrics1, '-o', color="green", label="Validation Metric", markersize=3)
-plt.plot(valid_epochs2, valid_metrics2, '-o', color="orange", label="Validation Metric (random sampling across trials)", markersize=3, linestyle='--')
+plt.plot(valid_epochs1, valid_metrics1, '-o', label="Validation Metric", markersize=3)
+#plt.plot(valid_epochs2, valid_metrics2, '-o', label="Validation Metric (random sampling across trials)", markersize=3, linestyle='--')
+#plt.plot(valid_epochs3, valid_metrics3, '-o', label="Validation Metric (longer patience)", markersize=3, linestyle='--')
+#plt.plot(valid_epochs4, valid_metrics4, '-o', label="Validation Metric (longer patience, different seed)", markersize=3, linestyle='--')
 plt.xlabel("Epoch")
 plt.ylabel("Metric Value")
 plt.title("Validation Metric over Epochs")
 plt.legend()
 plt.grid(True)
-plt.savefig("validation_metric_overlayed_2.png")
+plt.savefig("./logs/validation_metric_overlayed_2.png")
 
 
