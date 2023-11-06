@@ -1,0 +1,219 @@
+batch_size: 64
+shuffle: True
+num_workers: 32
+learning_rate: 0.01
+num_epochs: 1000
+valid_epochs: 20
+display_loss: 2
+save_dir: ./checkpoints/2023-11-05_10:03:55/
+logging_file: ./checkpoints/2023-11-05_10:03:55//training_log_2023-11-05_10:03:55.txt
+comment: VLAAI with 64 windows chosen randomly
+Epoch [3/1000] | Step [42/21000] | Train Loss: -0.0082, Metric: 
+Epoch [5/1000] | Step [84/21000] | Train Loss: -0.0398, Metric: 
+Epoch [7/1000] | Step [126/21000] | Train Loss: -0.0689, Metric: 
+Epoch [9/1000] | Step [168/21000] | Train Loss: -0.0898, Metric: 
+Epoch [11/1000] | Step [210/21000] | Train Loss: -0.0913, Metric: 
+Epoch [13/1000] | Step [252/21000] | Train Loss: -0.0998, Metric: 
+Epoch [15/1000] | Step [294/21000] | Train Loss: -0.0995, Metric: 
+Epoch [17/1000] | Step [336/21000] | Train Loss: -0.1094, Metric: 
+Epoch [19/1000] | Step [378/21000] | Train Loss: -0.1126, Metric: 
+Epoch [21/1000] | Step [420/21000] | Valid Loss: -0.1037, Metric: 0.0999
+Epoch [21/1000] | Step [420/21000] | Train Loss: -0.1094, Metric: 
+Epoch [23/1000] | Step [462/21000] | Train Loss: -0.1119, Metric: 
+Epoch [25/1000] | Step [504/21000] | Train Loss: -0.1209, Metric: 
+Epoch [27/1000] | Step [546/21000] | Train Loss: -0.1202, Metric: 
+Epoch [29/1000] | Step [588/21000] | Train Loss: -0.1252, Metric: 
+Epoch [31/1000] | Step [630/21000] | Train Loss: -0.1235, Metric: 
+Epoch [33/1000] | Step [672/21000] | Train Loss: -0.1231, Metric: 
+Epoch [35/1000] | Step [714/21000] | Train Loss: -0.1204, Metric: 
+Epoch [37/1000] | Step [756/21000] | Train Loss: -0.1230, Metric: 
+Epoch [39/1000] | Step [798/21000] | Train Loss: -0.1129, Metric: 
+Epoch [41/1000] | Step [840/21000] | Valid Loss: -0.1183, Metric: 0.1145
+Epoch [41/1000] | Step [840/21000] | Train Loss: -0.1278, Metric: 
+Epoch [43/1000] | Step [882/21000] | Train Loss: -0.1346, Metric: 
+Epoch [45/1000] | Step [924/21000] | Train Loss: -0.1327, Metric: 
+Epoch [47/1000] | Step [966/21000] | Train Loss: -0.1341, Metric: 
+Epoch [49/1000] | Step [1008/21000] | Train Loss: -0.1366, Metric: 
+Epoch [51/1000] | Step [1050/21000] | Train Loss: -0.1372, Metric: 
+Epoch [53/1000] | Step [1092/21000] | Train Loss: -0.1313, Metric: 
+Epoch [55/1000] | Step [1134/21000] | Train Loss: -0.1302, Metric: 
+Epoch [57/1000] | Step [1176/21000] | Train Loss: -0.1215, Metric: 
+Epoch [59/1000] | Step [1218/21000] | Train Loss: -0.1333, Metric: 
+Epoch [61/1000] | Step [1260/21000] | Valid Loss: -0.1228, Metric: 0.1185
+Epoch [61/1000] | Step [1260/21000] | Train Loss: -0.1318, Metric: 
+Epoch [63/1000] | Step [1302/21000] | Train Loss: -0.1343, Metric: 
+Epoch [65/1000] | Step [1344/21000] | Train Loss: -0.1431, Metric: 
+Epoch [67/1000] | Step [1386/21000] | Train Loss: -0.1456, Metric: 
+Epoch [69/1000] | Step [1428/21000] | Train Loss: -0.1370, Metric: 
+Epoch [71/1000] | Step [1470/21000] | Train Loss: -0.1382, Metric: 
+Epoch [73/1000] | Step [1512/21000] | Train Loss: -0.1389, Metric: 
+Epoch [75/1000] | Step [1554/21000] | Train Loss: -0.1402, Metric: 
+Epoch [77/1000] | Step [1596/21000] | Train Loss: -0.1422, Metric: 
+Epoch [79/1000] | Step [1638/21000] | Train Loss: -0.1417, Metric: 
+Epoch [81/1000] | Step [1680/21000] | Valid Loss: -0.1258, Metric: 0.1225
+Epoch [81/1000] | Step [1680/21000] | Train Loss: -0.1485, Metric: 
+Epoch [83/1000] | Step [1722/21000] | Train Loss: -0.1361, Metric: 
+Epoch [85/1000] | Step [1764/21000] | Train Loss: -0.1332, Metric: 
+Epoch [87/1000] | Step [1806/21000] | Train Loss: -0.1449, Metric: 
+Epoch [89/1000] | Step [1848/21000] | Train Loss: -0.1374, Metric: 
+Epoch [91/1000] | Step [1890/21000] | Train Loss: -0.1452, Metric: 
+Epoch [93/1000] | Step [1932/21000] | Train Loss: -0.1480, Metric: 
+Epoch [95/1000] | Step [1974/21000] | Train Loss: -0.1522, Metric: 
+Epoch [97/1000] | Step [2016/21000] | Train Loss: -0.1496, Metric: 
+Epoch [99/1000] | Step [2058/21000] | Train Loss: -0.1486, Metric: 
+Epoch [101/1000] | Step [2100/21000] | Valid Loss: -0.1322, Metric: 0.1281
+Epoch [101/1000] | Step [2100/21000] | Train Loss: -0.1512, Metric: 
+Epoch [103/1000] | Step [2142/21000] | Train Loss: -0.1450, Metric: 
+Epoch [105/1000] | Step [2184/21000] | Train Loss: -0.1540, Metric: 
+Epoch [107/1000] | Step [2226/21000] | Train Loss: -0.1537, Metric: 
+Epoch [109/1000] | Step [2268/21000] | Train Loss: -0.1459, Metric: 
+Epoch [111/1000] | Step [2310/21000] | Train Loss: -0.1403, Metric: 
+Epoch [113/1000] | Step [2352/21000] | Train Loss: -0.1453, Metric: 
+Epoch [115/1000] | Step [2394/21000] | Train Loss: -0.1433, Metric: 
+Epoch [117/1000] | Step [2436/21000] | Train Loss: -0.1516, Metric: 
+Epoch [119/1000] | Step [2478/21000] | Train Loss: -0.1585, Metric: 
+Epoch [121/1000] | Step [2520/21000] | Valid Loss: -0.1350, Metric: 0.1305
+Epoch [121/1000] | Step [2520/21000] | Train Loss: -0.1491, Metric: 
+Epoch [123/1000] | Step [2562/21000] | Train Loss: -0.1586, Metric: 
+Epoch [125/1000] | Step [2604/21000] | Train Loss: -0.1498, Metric: 
+Epoch [127/1000] | Step [2646/21000] | Train Loss: -0.1591, Metric: 
+Epoch [129/1000] | Step [2688/21000] | Train Loss: -0.1566, Metric: 
+Epoch [131/1000] | Step [2730/21000] | Train Loss: -0.1560, Metric: 
+Epoch [133/1000] | Step [2772/21000] | Train Loss: -0.1553, Metric: 
+Epoch [135/1000] | Step [2814/21000] | Train Loss: -0.1512, Metric: 
+Epoch [137/1000] | Step [2856/21000] | Train Loss: -0.1546, Metric: 
+Epoch [139/1000] | Step [2898/21000] | Train Loss: -0.1504, Metric: 
+Epoch [141/1000] | Step [2940/21000] | Valid Loss: -0.1352, Metric: 0.1312
+Epoch [141/1000] | Step [2940/21000] | Train Loss: -0.1618, Metric: 
+Epoch [143/1000] | Step [2982/21000] | Train Loss: -0.1523, Metric: 
+Epoch [145/1000] | Step [3024/21000] | Train Loss: -0.1533, Metric: 
+Epoch [147/1000] | Step [3066/21000] | Train Loss: -0.1567, Metric: 
+Epoch [149/1000] | Step [3108/21000] | Train Loss: -0.1571, Metric: 
+Epoch [151/1000] | Step [3150/21000] | Train Loss: -0.1566, Metric: 
+Epoch [153/1000] | Step [3192/21000] | Train Loss: -0.1546, Metric: 
+Epoch [155/1000] | Step [3234/21000] | Train Loss: -0.1569, Metric: 
+Epoch [157/1000] | Step [3276/21000] | Train Loss: -0.1638, Metric: 
+Epoch [159/1000] | Step [3318/21000] | Train Loss: -0.1616, Metric: 
+Epoch [161/1000] | Step [3360/21000] | Valid Loss: -0.1296, Metric: 0.1270
+Epoch [161/1000] | Step [3360/21000] | Train Loss: -0.1630, Metric: 
+Epoch [163/1000] | Step [3402/21000] | Train Loss: -0.1578, Metric: 
+Epoch [165/1000] | Step [3444/21000] | Train Loss: -0.1561, Metric: 
+Epoch [167/1000] | Step [3486/21000] | Train Loss: -0.1570, Metric: 
+Epoch [169/1000] | Step [3528/21000] | Train Loss: -0.1626, Metric: 
+Epoch [171/1000] | Step [3570/21000] | Train Loss: -0.1593, Metric: 
+Epoch [173/1000] | Step [3612/21000] | Train Loss: -0.1586, Metric: 
+Epoch [175/1000] | Step [3654/21000] | Train Loss: -0.1611, Metric: 
+Epoch [177/1000] | Step [3696/21000] | Train Loss: -0.1575, Metric: 
+Epoch [179/1000] | Step [3738/21000] | Train Loss: -0.1607, Metric: 
+Epoch [181/1000] | Step [3780/21000] | Valid Loss: -0.1402, Metric: 0.1371
+Epoch [181/1000] | Step [3780/21000] | Train Loss: -0.1678, Metric: 
+Epoch [183/1000] | Step [3822/21000] | Train Loss: -0.1643, Metric: 
+Epoch [185/1000] | Step [3864/21000] | Train Loss: -0.1645, Metric: 
+Epoch [187/1000] | Step [3906/21000] | Train Loss: -0.1619, Metric: 
+Epoch [189/1000] | Step [3948/21000] | Train Loss: -0.1602, Metric: 
+Epoch [191/1000] | Step [3990/21000] | Train Loss: -0.1635, Metric: 
+Epoch [193/1000] | Step [4032/21000] | Train Loss: -0.1669, Metric: 
+Epoch [195/1000] | Step [4074/21000] | Train Loss: -0.1610, Metric: 
+Epoch [197/1000] | Step [4116/21000] | Train Loss: -0.1565, Metric: 
+Epoch [199/1000] | Step [4158/21000] | Train Loss: -0.1549, Metric: 
+Epoch [201/1000] | Step [4200/21000] | Valid Loss: -0.1411, Metric: 0.1379
+Epoch [201/1000] | Step [4200/21000] | Train Loss: -0.1649, Metric: 
+Epoch [203/1000] | Step [4242/21000] | Train Loss: -0.1684, Metric: 
+Epoch [205/1000] | Step [4284/21000] | Train Loss: -0.1712, Metric: 
+Epoch [207/1000] | Step [4326/21000] | Train Loss: -0.1644, Metric: 
+Epoch [209/1000] | Step [4368/21000] | Train Loss: -0.1644, Metric: 
+Epoch [211/1000] | Step [4410/21000] | Train Loss: -0.1619, Metric: 
+Epoch [213/1000] | Step [4452/21000] | Train Loss: -0.1627, Metric: 
+Epoch [215/1000] | Step [4494/21000] | Train Loss: -0.1600, Metric: 
+Epoch [217/1000] | Step [4536/21000] | Train Loss: -0.1592, Metric: 
+Epoch [219/1000] | Step [4578/21000] | Train Loss: -0.1743, Metric: 
+Epoch [221/1000] | Step [4620/21000] | Valid Loss: -0.1445, Metric: 0.1414
+Epoch [221/1000] | Step [4620/21000] | Train Loss: -0.1732, Metric: 
+Epoch [223/1000] | Step [4662/21000] | Train Loss: -0.1668, Metric: 
+Epoch [225/1000] | Step [4704/21000] | Train Loss: -0.1658, Metric: 
+Epoch [227/1000] | Step [4746/21000] | Train Loss: -0.1716, Metric: 
+Epoch [229/1000] | Step [4788/21000] | Train Loss: -0.1674, Metric: 
+Epoch [231/1000] | Step [4830/21000] | Train Loss: -0.1663, Metric: 
+Epoch [233/1000] | Step [4872/21000] | Train Loss: -0.1800, Metric: 
+Epoch [235/1000] | Step [4914/21000] | Train Loss: -0.1667, Metric: 
+Epoch [237/1000] | Step [4956/21000] | Train Loss: -0.1651, Metric: 
+Epoch [239/1000] | Step [4998/21000] | Train Loss: -0.1705, Metric: 
+Epoch [241/1000] | Step [5040/21000] | Valid Loss: -0.1415, Metric: 0.1377
+Epoch [241/1000] | Step [5040/21000] | Train Loss: -0.1723, Metric: 
+Epoch [243/1000] | Step [5082/21000] | Train Loss: -0.1704, Metric: 
+Epoch [245/1000] | Step [5124/21000] | Train Loss: -0.1643, Metric: 
+Epoch [247/1000] | Step [5166/21000] | Train Loss: -0.1717, Metric: 
+Epoch [249/1000] | Step [5208/21000] | Train Loss: -0.1653, Metric: 
+Epoch [251/1000] | Step [5250/21000] | Train Loss: -0.1691, Metric: 
+Epoch [253/1000] | Step [5292/21000] | Train Loss: -0.1604, Metric: 
+Epoch [255/1000] | Step [5334/21000] | Train Loss: -0.1713, Metric: 
+Epoch [257/1000] | Step [5376/21000] | Train Loss: -0.1731, Metric: 
+Epoch [259/1000] | Step [5418/21000] | Train Loss: -0.1793, Metric: 
+Epoch [261/1000] | Step [5460/21000] | Valid Loss: -0.1474, Metric: 0.1442
+Epoch [261/1000] | Step [5460/21000] | Train Loss: -0.1698, Metric: 
+Epoch [263/1000] | Step [5502/21000] | Train Loss: -0.1742, Metric: 
+Epoch [265/1000] | Step [5544/21000] | Train Loss: -0.1716, Metric: 
+Epoch [267/1000] | Step [5586/21000] | Train Loss: -0.1723, Metric: 
+Epoch [269/1000] | Step [5628/21000] | Train Loss: -0.1774, Metric: 
+Epoch [271/1000] | Step [5670/21000] | Train Loss: -0.1631, Metric: 
+Epoch [273/1000] | Step [5712/21000] | Train Loss: -0.1775, Metric: 
+Epoch [275/1000] | Step [5754/21000] | Train Loss: -0.1744, Metric: 
+Epoch [277/1000] | Step [5796/21000] | Train Loss: -0.1838, Metric: 
+Epoch [279/1000] | Step [5838/21000] | Train Loss: -0.1766, Metric: 
+Epoch [281/1000] | Step [5880/21000] | Valid Loss: -0.1496, Metric: 0.1466
+Epoch [281/1000] | Step [5880/21000] | Train Loss: -0.1767, Metric: 
+Epoch [283/1000] | Step [5922/21000] | Train Loss: -0.1789, Metric: 
+Epoch [285/1000] | Step [5964/21000] | Train Loss: -0.1669, Metric: 
+Epoch [287/1000] | Step [6006/21000] | Train Loss: -0.1772, Metric: 
+Epoch [289/1000] | Step [6048/21000] | Train Loss: -0.1746, Metric: 
+Epoch [291/1000] | Step [6090/21000] | Train Loss: -0.1789, Metric: 
+Epoch [293/1000] | Step [6132/21000] | Train Loss: -0.1844, Metric: 
+Epoch [295/1000] | Step [6174/21000] | Train Loss: -0.1742, Metric: 
+Epoch [297/1000] | Step [6216/21000] | Train Loss: -0.1869, Metric: 
+Epoch [299/1000] | Step [6258/21000] | Train Loss: -0.1748, Metric: 
+Epoch [301/1000] | Step [6300/21000] | Valid Loss: -0.1454, Metric: 0.1421
+Epoch [301/1000] | Step [6300/21000] | Train Loss: -0.1727, Metric: 
+Epoch [303/1000] | Step [6342/21000] | Train Loss: -0.1747, Metric: 
+Epoch [305/1000] | Step [6384/21000] | Train Loss: -0.1755, Metric: 
+Epoch [307/1000] | Step [6426/21000] | Train Loss: -0.1843, Metric: 
+Epoch [309/1000] | Step [6468/21000] | Train Loss: -0.1797, Metric: 
+Epoch [311/1000] | Step [6510/21000] | Train Loss: -0.1838, Metric: 
+Epoch [313/1000] | Step [6552/21000] | Train Loss: -0.1823, Metric: 
+Epoch [315/1000] | Step [6594/21000] | Train Loss: -0.1732, Metric: 
+Epoch [317/1000] | Step [6636/21000] | Train Loss: -0.1754, Metric: 
+Epoch [319/1000] | Step [6678/21000] | Train Loss: -0.1787, Metric: 
+Epoch [321/1000] | Step [6720/21000] | Valid Loss: -0.1450, Metric: 0.1416
+Epoch [321/1000] | Step [6720/21000] | Train Loss: -0.1851, Metric: 
+Epoch [323/1000] | Step [6762/21000] | Train Loss: -0.1786, Metric: 
+Epoch [325/1000] | Step [6804/21000] | Train Loss: -0.1834, Metric: 
+Epoch [327/1000] | Step [6846/21000] | Train Loss: -0.1832, Metric: 
+Epoch [329/1000] | Step [6888/21000] | Train Loss: -0.1822, Metric: 
+Epoch [331/1000] | Step [6930/21000] | Train Loss: -0.1809, Metric: 
+Epoch [333/1000] | Step [6972/21000] | Train Loss: -0.1798, Metric: 
+Epoch [335/1000] | Step [7014/21000] | Train Loss: -0.1866, Metric: 
+Epoch [337/1000] | Step [7056/21000] | Train Loss: -0.1831, Metric: 
+Epoch [339/1000] | Step [7098/21000] | Train Loss: -0.1805, Metric: 
+Epoch [341/1000] | Step [7140/21000] | Valid Loss: -0.1420, Metric: 0.1390
+Epoch [341/1000] | Step [7140/21000] | Train Loss: -0.1868, Metric: 
+Epoch [343/1000] | Step [7182/21000] | Train Loss: -0.1827, Metric: 
+Epoch [345/1000] | Step [7224/21000] | Train Loss: -0.1786, Metric: 
+Epoch [347/1000] | Step [7266/21000] | Train Loss: -0.1876, Metric: 
+Epoch [349/1000] | Step [7308/21000] | Train Loss: -0.1934, Metric: 
+Epoch [351/1000] | Step [7350/21000] | Train Loss: -0.1913, Metric: 
+Epoch [353/1000] | Step [7392/21000] | Train Loss: -0.1910, Metric: 
+Epoch [355/1000] | Step [7434/21000] | Train Loss: -0.1903, Metric: 
+Epoch [357/1000] | Step [7476/21000] | Train Loss: -0.1896, Metric: 
+Epoch [359/1000] | Step [7518/21000] | Train Loss: -0.1857, Metric: 
+Epoch [361/1000] | Step [7560/21000] | Valid Loss: -0.1447, Metric: 0.1407
+Epoch [361/1000] | Step [7560/21000] | Train Loss: -0.1888, Metric: 
+Epoch [363/1000] | Step [7602/21000] | Train Loss: -0.1812, Metric: 
+Epoch [365/1000] | Step [7644/21000] | Train Loss: -0.1854, Metric: 
+Epoch [367/1000] | Step [7686/21000] | Train Loss: -0.1873, Metric: 
+Epoch [369/1000] | Step [7728/21000] | Train Loss: -0.1837, Metric: 
+Epoch [371/1000] | Step [7770/21000] | Train Loss: -0.1899, Metric: 
+Epoch [373/1000] | Step [7812/21000] | Train Loss: -0.1858, Metric: 
+Epoch [375/1000] | Step [7854/21000] | Train Loss: -0.1968, Metric: 
+Epoch [377/1000] | Step [7896/21000] | Train Loss: -0.1883, Metric: 
+Epoch [379/1000] | Step [7938/21000] | Train Loss: -0.1936, Metric: 
+Epoch [381/1000] | Step [7980/21000] | Valid Loss: -0.1453, Metric: 0.1416
+Epoch [381/1000] | Step [7980/21000] | Train Loss: -0.1975, Metric: 
